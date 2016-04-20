@@ -35,39 +35,89 @@
 
 \section{Project}
 
+It all comes from this garden that I have in France. The problem is that I am not in France but still would like to be able of caring and visiting it 
+from a remote place in the world.
 
-\section{Context}
-
+I could ask someone to do the job for me or show me via a video call the garden but this is definitively not very fun and the place is often empty. This is why I want to make a robot that can live in this garden all year round. I want to start by making the mobile platform that moves in the garden all year round. Staying all year round in a garden is tough, especially for a robot, especially when it rains, shines, snows and so much more. Tough robots exist but not in the same financial space as I do. My challenge is to make one for cheap. 
 
 
 \section{Challenge}
 
+To be more specific, I would define the challenge like this:\\[2cm]
+
+The challenge is to create a cheap mobile automated remotely operable platform to support gardening operations in my garden all year round.\\[2cm]
+
+But still, as a higher technician graduate and robotics engineer in the making, that is not precise enough. We need specifications. So let's write them.
+
 \chapter{Objectives and technical constraints}
 
-\section{Functionnal analysis}
- (figure \ref{f1}).
+In this part, I try to give details on what I expect from this project.
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.85\textwidth]{img/grin2.png}
-\caption{}
-\label{f1}
-\end{figure}
+\section{Building, assembly, maintenance}
+    \paragraph{ Cost: } The making of one platform costs less than 300 euros. The total cost of this project must not exceed 1000 euros. A single component may not cost more than 70 euros.
+    
+    \paragraph{ Machining: } The components are either off-the-shelf or may be manufactured in a hacklab, Dim Sum Lab in Hong-Kong in particular. This means hand-tooling, laser-cutter and 3D printer.
+    
+    \paragraph{ Complexity: } The number of different class of components must not exceed 30. To clarify, several instances of the same class may be used in the project but only the class is counted.
+    
+    \paragraph{ Volume: } When idle, the footprint is fully contained within a square meter. Height is not defined. Dissambled, the platform fits in a suit-case. Suit-case is not specified but must be able of travelling by plane.
+    
+    \paragraph{ Weight: } Maximum weight is 20 kg for the bare platform without arms or other additionnal equipment.
+    
+\section{Moving around}
 
+    \paragraph{Surfaces: } The platform is at least able of moving on grass, gravel path and mud. The maximum acceptable slope(with the possibility of moving without slipping) in any direction is at least 10 degrees on grass or gravel.
+    
+    \paragraph{Speed: } Speed is not specified, gardening is a slow activity.
+    
+    \paragraph{Endurance: } At least one hour of continuous operation.
+    
+    \paragraph{Movements: } The platform can rotate along the vertical axis and translate along one horizontal axis or any combination of the two. It does not have to be holonomic.
+    
+    \paragraph{Sensors: } The platform must provide a 2D video stream.
+    
+    \paragraph{Noise: } Noise must be bearable by me during home testing.
+    
+\section{Waiting}
 
+    \paragraph{Power: } The platform is self reliable. It allows for one hour of operation every day on a sunny day and 1 hour of operation every two day during the shortest winter days.
+    
+    \paragraph{Durability: } The platform can stay unattended for at least three years outside. 
+    
+\section{Security}
 
-\section{}
+    \paragraph{Emergency stop: } An emergency stop is provided for manual access on the platform. It can only be released by a human by hand. The emergency stop powers down the actuators of the plateform but any load is safely gradually released.
+    
+    \paragraph{Electricity: } The platform will not cause electric shocks.
+    
+\section{Versatiliy}
+
+    \paragraph{Arms: } The platform will support at least one 6 degrees-of-freedom robotized arm. The arm is not specified but the plateform should be able of powering it, holding it and transmit commands.
+    
+    \paragraph{Other components: } The plateform should make it easy to power and adapt components like lights, cameras, dump bucket.
+    
+    
+\section{Competition}
+
+    \paragraph{2016 Hackaday Prize} This project is a valid entry for the four first challenges of the 2016 Hackaday prize and maybe the fifth.
+    
+    \paragraph{James Dyson Award} This project is a valid entry for the French edition of the James Dyson Award.
 
 
 \chapter{Project resources}
 
     \section{People}
+    Only one person is dedicated to this project, that's me. Help is welcomed but not necessary.
     
     \section{Money}
+    The only source of funding is my personnal treasure. Sponsorship is 
+    welcomed if it does not need any change of license.
     
     \section{Time}
+    About 10 hours per week every week.
 
-    \section{Machines}
+    \section{Tooling}
+    Hand tooling and equipement of the Dim Sum Lab in Hong Kong. If really required, CNC might be available at my company.
 
 % La partie qui concerne le planning
 \input{calendar}
